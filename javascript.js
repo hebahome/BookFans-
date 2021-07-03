@@ -2,6 +2,7 @@ if (confirm("Have you ever hear about us")) {
   txt = "press ok";
 } else {
   txt = "you don't answer  it";
+  
 }
 
 
