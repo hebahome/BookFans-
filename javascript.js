@@ -1,17 +1,17 @@
 if (confirm("Have you ever hear about us")) {
-  text = "press ok";
+  txt = "press ok";
   } else {
-  type = "you don't answer  it" ;
+  txt = "you don't answer  it" ;
   }
 
 
 
-  var name = prompt("plz type your name","your name ");
-  var text;
+  var person = prompt("plz type your name","your name ");
+  var txt;
   if (person == null || person == "" ) {
-    text = "user cancelled the prompt" ;
+    alert("user cancelled the prompt") ;
   } else {
-    text = "Hello " +person +"How are you";
+    alert("Hello " + "How are you" + person);
   }
   if (person != null || person != " ")
   {
