@@ -24,7 +24,6 @@ if (person != null || person != " ") {
 
 var favbook = prompt("What is your fav book? (Harry Potter  , Gilden In Ach) ")
 
-<<<<<<< HEAD
 function books() {
 =======
 while (favbook != "Harry Potter" && favbook != "Gilden In Ach") {
@@ -34,7 +33,6 @@ while (favbook != "Harry Potter" && favbook != "Gilden In Ach") {
  if (favbook == "Harry Potter") {
   var times = prompt("How many you prefer to see on our vlog ")
   for (var h = 0; h < times; h++) {
->>>>>>> b7dd66c5dcdbd199b1a853dd0d31fd45c2aee68e
 
   while (favbook != "Harry Potter" && favbook != "Gilden In Ach") {
     favbook = prompt("what is your favbook? (Harry Potter , Gilden In Ach) ")
@@ -46,10 +44,9 @@ while (favbook != "Harry Potter" && favbook != "Gilden In Ach") {
 
       document.write("<div>" + "<h3>" + favbook + "</h3>" + "<img src='https://townsquare.media/site/442/files/2020/07/Harry-Potter-Final.jpg ' alt='Harry Potter'" + "</div>")
 
-<<<<<<< HEAD
+
     }
-=======
->>>>>>> b7dd66c5dcdbd199b1a853dd0d31fd45c2aee68e
+
   }
 
   else if (favbook == "Gilden In Ach") {
@@ -69,10 +66,8 @@ var stars = prompt('How many stars you want to rate us?')
 
 for(i = 0 ; i<stars ; i++){
 document.write("<img src= 'https://iosexample.com/content/images/2020/04/CWRateKit.png'")
-
-<<<<<<< HEAD
 }
-=======
+
 else if  (favbook == "Gilden In Ach") {
   var times = prompt("How many you prefer to see on our vlog ")
   for (var h = 0; h < times; h++) {
@@ -82,4 +77,4 @@ else if  (favbook == "Gilden In Ach") {
 
   }
 }
->>>>>>> b7dd66c5dcdbd199b1a853dd0d31fd45c2aee68e
+
