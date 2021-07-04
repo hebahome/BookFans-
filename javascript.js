@@ -6,6 +6,8 @@ if (confirm("Have you ever hear about us")) {
 
 
 
+
+
 var person = prompt("plz type your name", "your name ");
 var txt;
 if (person == null || person == "") {
